@@ -76,11 +76,11 @@ def main():
         print(f"Error loading browser.json: {e}")
         sys.exit(1)
 
-    # Your exact targeted playlists
+    # Change the file path & name your playlist.
     playlists_to_import = [
-        {"csv": "/home/xal/Downloads/Français.csv", "name": "Français"},
-        {"csv": "/home/xal/Downloads/Indo-indie.csv", "name": "Indo"},
-        {"csv": "/home/xal/Downloads/Soft-hop.csv", "name": "Hope"}
+        {"csv": "/path/to/the/file.csv", "name": "Name of the playlist"},
+        {"csv": "/path/to/the/file.csv", "name": "Name of the playlist"},
+        {"csv": "/path/to/the/file.csv", "name": "Name of the playlist"}
     ]
 
     for pl in playlists_to_import:
